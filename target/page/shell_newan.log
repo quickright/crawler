@@ -1,0 +1,1068 @@
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3902&perPage=100&skipIndex=390200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3902.json
+--2016-04-27 19:08:24--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3902.json'
+
+     0K .......... .......... .......... .......... ..........  447K
+    50K .......... .......... .......... .......... .....      1.35M=0.1s
+
+2016-04-27 19:09:01 (660 KB/s) - '3902.json' saved [97782]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3903&perPage=100&skipIndex=390300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3903.json
+--2016-04-27 19:09:01--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3903.json'
+
+     0K .......... .......... .......... .......... ..........  605K
+    50K .......... .......... .......... .......... .....      1.01M=0.1s
+
+2016-04-27 19:09:24 (754 KB/s) - '3903.json' saved [97574]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3904&perPage=100&skipIndex=390400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3904.json
+--2016-04-27 19:09:24--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3904.json'
+
+     0K .......... .......... .......... .......... ..........  662K
+    50K .......... .......... .......... .......... ...        1.12M=0.1s
+
+2016-04-27 19:09:48 (824 KB/s) - '3904.json' saved [95398]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3905&perPage=100&skipIndex=390500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3905.json
+--2016-04-27 19:09:48--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3905.json'
+
+     0K .......... .......... .......... .......... ..........  702K
+    50K .......... .......... .......... .......... ...        1.11M=0.1s
+
+2016-04-27 19:10:11 (854 KB/s) - '3905.json' saved [95401]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3906&perPage=100&skipIndex=390600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3906.json
+--2016-04-27 19:10:11--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3906.json'
+
+     0K .......... .......... .......... .......... ..........  628K
+    50K .......... .......... .......... .......... ...        1.05M=0.1s
+
+2016-04-27 19:10:36 (779 KB/s) - '3906.json' saved [96212]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3907&perPage=100&skipIndex=390700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3907.json
+--2016-04-27 19:10:36--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3907.json'
+
+     0K .......... .......... .......... .......... ..........  678K
+    50K .......... .......... .......... .......... .           998K=0.1s
+
+2016-04-27 19:11:02 (793 KB/s) - '3907.json' saved [93592]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3908&perPage=100&skipIndex=390800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3908.json
+--2016-04-27 19:11:02--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3908.json'
+
+     0K .......... .......... .......... .......... ..........  647K
+    50K .......... .......... .......... .......... .....      1.09M=0.1s
+
+2016-04-27 19:11:28 (811 KB/s) - '3908.json' saved [97994]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3909&perPage=100&skipIndex=390900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3909.json
+--2016-04-27 19:11:28--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3909.json'
+
+     0K .......... .......... .......... .......... ..........  626K
+    50K .......... .......... .......... .......... ......      699K=0.1s
+
+2016-04-27 19:11:54 (659 KB/s) - '3909.json' saved [98611]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3910&perPage=100&skipIndex=391000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3910.json
+--2016-04-27 19:11:54--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3910.json'
+
+     0K .......... .......... .......... .......... ..........  656K
+    50K .......... .......... .......... .......... ........    749K=0.1s
+
+2016-04-27 19:12:21 (699 KB/s) - '3910.json' saved [100949]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3911&perPage=100&skipIndex=391100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3911.json
+--2016-04-27 19:12:21--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3911.json'
+
+     0K .......... .......... .......... .......... ..........  688K
+    50K .......... .......... .......... .......... .......    1.21M=0.1s
+
+2016-04-27 19:12:47 (877 KB/s) - '3911.json' saved [99419]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3912&perPage=100&skipIndex=391200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3912.json
+--2016-04-27 19:12:47--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3912.json'
+
+     0K .......... .......... .......... .......... ..........  764K
+    50K .......... .......... .......... .......... ........   1.33M=0.1s
+
+2016-04-27 19:13:24 (974 KB/s) - '3912.json' saved [100555]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3913&perPage=100&skipIndex=391300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3913.json
+--2016-04-27 19:13:24--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: '3913.json'
+
+     0K .......... .......... .......... .......... ..........  694K
+    50K .......... .......... .......... ....                   971K=0.1s
+
+2016-04-27 19:13:46 (785 KB/s) - '3913.json' saved [86504]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3914&perPage=100&skipIndex=391400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3914.json
+--2016-04-27 19:13:46--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3914.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:13:49 (11.1 MB/s) - '3914.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3915&perPage=100&skipIndex=391500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3915.json
+--2016-04-27 19:13:49--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3915.json'
+
+     0K                                                       100% 6.26M=0s
+
+2016-04-27 19:13:51 (6.26 MB/s) - '3915.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3916&perPage=100&skipIndex=391600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3916.json
+--2016-04-27 19:13:51--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3916.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:13:54 (11.1 MB/s) - '3916.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3917&perPage=100&skipIndex=391700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3917.json
+--2016-04-27 19:13:54--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3917.json'
+
+     0K                                                       100% 7.70M=0s
+
+2016-04-27 19:13:56 (7.70 MB/s) - '3917.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3918&perPage=100&skipIndex=391800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3918.json
+--2016-04-27 19:13:56--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3918.json'
+
+     0K                                                       100% 16.7M=0s
+
+2016-04-27 19:13:58 (16.7 MB/s) - '3918.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3919&perPage=100&skipIndex=391900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3919.json
+--2016-04-27 19:13:58--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3919.json'
+
+     0K                                                       100% 2.57M=0s
+
+2016-04-27 19:14:00 (2.57 MB/s) - '3919.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3920&perPage=100&skipIndex=392000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3920.json
+--2016-04-27 19:14:01--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3920.json'
+
+     0K                                                       100% 4.01M=0s
+
+2016-04-27 19:14:03 (4.01 MB/s) - '3920.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3921&perPage=100&skipIndex=392100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3921.json
+--2016-04-27 19:14:03--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3921.json'
+
+     0K                                                       100% 5.56M=0s
+
+2016-04-27 19:14:05 (5.56 MB/s) - '3921.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3922&perPage=100&skipIndex=392200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3922.json
+--2016-04-27 19:14:05--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3922.json'
+
+     0K                                                       100% 3.13M=0s
+
+2016-04-27 19:14:07 (3.13 MB/s) - '3922.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3923&perPage=100&skipIndex=392300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3923.json
+--2016-04-27 19:14:07--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3923.json'
+
+     0K                                                       100% 8.34M=0s
+
+2016-04-27 19:14:10 (8.34 MB/s) - '3923.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3924&perPage=100&skipIndex=392400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3924.json
+--2016-04-27 19:14:10--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3924.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:14:12 (10.0 MB/s) - '3924.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3925&perPage=100&skipIndex=392500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3925.json
+--2016-04-27 19:14:12--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3925.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:14:14 (10.0 MB/s) - '3925.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3926&perPage=100&skipIndex=392600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3926.json
+--2016-04-27 19:14:14--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3926.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:14:16 (10.0 MB/s) - '3926.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3927&perPage=100&skipIndex=392700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3927.json
+--2016-04-27 19:14:16--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3927.json'
+
+     0K                                                       100% 5.01M=0s
+
+2016-04-27 19:14:18 (5.01 MB/s) - '3927.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3928&perPage=100&skipIndex=392800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3928.json
+--2016-04-27 19:14:18--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3928.json'
+
+     0K                                                       100% 5.27M=0s
+
+2016-04-27 19:14:21 (5.27 MB/s) - '3928.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3929&perPage=100&skipIndex=392900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3929.json
+--2016-04-27 19:14:21--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3929.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:14:23 (10.0 MB/s) - '3929.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3930&perPage=100&skipIndex=393000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3930.json
+--2016-04-27 19:14:23--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3930.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:14:25 (10.0 MB/s) - '3930.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3931&perPage=100&skipIndex=393100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3931.json
+--2016-04-27 19:14:25--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3931.json'
+
+     0K                                                       100% 6.26M=0s
+
+2016-04-27 19:14:27 (6.26 MB/s) - '3931.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3932&perPage=100&skipIndex=393200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3932.json
+--2016-04-27 19:14:27--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3932.json'
+
+     0K                                                       100% 7.70M=0s
+
+2016-04-27 19:14:30 (7.70 MB/s) - '3932.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3933&perPage=100&skipIndex=393300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3933.json
+--2016-04-27 19:14:30--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3933.json'
+
+     0K                                                       100% 6.26M=0s
+
+2016-04-27 19:14:32 (6.26 MB/s) - '3933.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3934&perPage=100&skipIndex=393400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3934.json
+--2016-04-27 19:14:32--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3934.json'
+
+     0K                                                       100% 8.34M=0s
+
+2016-04-27 19:14:34 (8.34 MB/s) - '3934.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3935&perPage=100&skipIndex=393500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3935.json
+--2016-04-27 19:14:34--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3935.json'
+
+     0K                                                       100% 6.26M=0s
+
+2016-04-27 19:14:37 (6.26 MB/s) - '3935.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3936&perPage=100&skipIndex=393600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3936.json
+--2016-04-27 19:14:37--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3936.json'
+
+     0K                                                       100% 5.27M=0s
+
+2016-04-27 19:14:39 (5.27 MB/s) - '3936.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3937&perPage=100&skipIndex=393700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3937.json
+--2016-04-27 19:14:39--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3937.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:14:42 (11.1 MB/s) - '3937.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3938&perPage=100&skipIndex=393800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3938.json
+--2016-04-27 19:14:42--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3938.json'
+
+     0K                                                       100% 2.09M=0s
+
+2016-04-27 19:14:44 (2.09 MB/s) - '3938.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3939&perPage=100&skipIndex=393900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3939.json
+--2016-04-27 19:14:44--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3939.json'
+
+     0K                                                       100% 7.15M=0s
+
+2016-04-27 19:14:46 (7.15 MB/s) - '3939.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3940&perPage=100&skipIndex=394000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3940.json
+--2016-04-27 19:14:46--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3940.json'
+
+     0K                                                       100% 9.10M=0s
+
+2016-04-27 19:14:49 (9.10 MB/s) - '3940.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3941&perPage=100&skipIndex=394100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3941.json
+--2016-04-27 19:14:49--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3941.json'
+
+     0K                                                       100% 5.01M=0s
+
+2016-04-27 19:14:51 (5.01 MB/s) - '3941.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3942&perPage=100&skipIndex=394200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3942.json
+--2016-04-27 19:14:52--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3942.json'
+
+     0K                                                       100% 14.3M=0s
+
+2016-04-27 19:14:54 (14.3 MB/s) - '3942.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3943&perPage=100&skipIndex=394300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3943.json
+--2016-04-27 19:14:54--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3943.json'
+
+     0K                                                       100% 16.7M=0s
+
+2016-04-27 19:14:56 (16.7 MB/s) - '3943.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3944&perPage=100&skipIndex=394400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3944.json
+--2016-04-27 19:14:56--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3944.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:14:58 (10.0 MB/s) - '3944.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3945&perPage=100&skipIndex=394500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3945.json
+--2016-04-27 19:14:58--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3945.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:15:01 (11.1 MB/s) - '3945.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3946&perPage=100&skipIndex=394600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3946.json
+--2016-04-27 19:15:01--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3946.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:15:03 (11.1 MB/s) - '3946.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3947&perPage=100&skipIndex=394700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3947.json
+--2016-04-27 19:15:03--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3947.json'
+
+     0K                                                       100% 7.15M=0s
+
+2016-04-27 19:15:06 (7.15 MB/s) - '3947.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3948&perPage=100&skipIndex=394800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3948.json
+--2016-04-27 19:15:06--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3948.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:15:08 (11.1 MB/s) - '3948.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3949&perPage=100&skipIndex=394900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3949.json
+--2016-04-27 19:15:08--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3949.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:15:10 (11.1 MB/s) - '3949.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3950&perPage=100&skipIndex=395000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3950.json
+--2016-04-27 19:15:10--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3950.json'
+
+     0K                                                       100% 7.70M=0s
+
+2016-04-27 19:15:13 (7.70 MB/s) - '3950.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3951&perPage=100&skipIndex=395100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3951.json
+--2016-04-27 19:15:13--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3951.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:15:15 (11.1 MB/s) - '3951.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3952&perPage=100&skipIndex=395200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3952.json
+--2016-04-27 19:15:15--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3952.json'
+
+     0K                                                       100% 5.56M=0s
+
+2016-04-27 19:15:17 (5.56 MB/s) - '3952.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3953&perPage=100&skipIndex=395300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3953.json
+--2016-04-27 19:15:17--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3953.json'
+
+     0K                                                       100% 7.15M=0s
+
+2016-04-27 19:15:20 (7.15 MB/s) - '3953.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3954&perPage=100&skipIndex=395400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3954.json
+--2016-04-27 19:15:20--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3954.json'
+
+     0K                                                       100% 5.27M=0s
+
+2016-04-27 19:15:22 (5.27 MB/s) - '3954.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3955&perPage=100&skipIndex=395500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3955.json
+--2016-04-27 19:15:22--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3955.json'
+
+     0K                                                       100% 8.34M=0s
+
+2016-04-27 19:15:24 (8.34 MB/s) - '3955.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3956&perPage=100&skipIndex=395600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3956.json
+--2016-04-27 19:15:24--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3956.json'
+
+     0K                                                       100% 16.7M=0s
+
+2016-04-27 19:15:26 (16.7 MB/s) - '3956.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3957&perPage=100&skipIndex=395700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3957.json
+--2016-04-27 19:15:26--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3957.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:15:28 (11.1 MB/s) - '3957.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3958&perPage=100&skipIndex=395800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3958.json
+--2016-04-27 19:15:28--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3958.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:15:31 (10.0 MB/s) - '3958.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3959&perPage=100&skipIndex=395900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3959.json
+--2016-04-27 19:15:31--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3959.json'
+
+     0K                                                       100% 9.10M=0s
+
+2016-04-27 19:15:33 (9.10 MB/s) - '3959.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3960&perPage=100&skipIndex=396000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3960.json
+--2016-04-27 19:15:33--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3960.json'
+
+     0K                                                       100% 1.73M=0s
+
+2016-04-27 19:15:35 (1.73 MB/s) - '3960.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3961&perPage=100&skipIndex=396100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3961.json
+--2016-04-27 19:15:35--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3961.json'
+
+     0K                                                       100% 14.3M=0s
+
+2016-04-27 19:15:37 (14.3 MB/s) - '3961.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3962&perPage=100&skipIndex=396200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3962.json
+--2016-04-27 19:15:37--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3962.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:15:40 (10.0 MB/s) - '3962.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3963&perPage=100&skipIndex=396300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3963.json
+--2016-04-27 19:15:40--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3963.json'
+
+     0K                                                       100% 3.85M=0s
+
+2016-04-27 19:15:42 (3.85 MB/s) - '3963.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3964&perPage=100&skipIndex=396400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3964.json
+--2016-04-27 19:15:42--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3964.json'
+
+     0K                                                       100% 9.10M=0s
+
+2016-04-27 19:15:44 (9.10 MB/s) - '3964.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3965&perPage=100&skipIndex=396500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3965.json
+--2016-04-27 19:15:44--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3965.json'
+
+     0K                                                       100% 5.27M=0s
+
+2016-04-27 19:15:47 (5.27 MB/s) - '3965.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3966&perPage=100&skipIndex=396600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3966.json
+--2016-04-27 19:15:47--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3966.json'
+
+     0K                                                       100% 16.7M=0s
+
+2016-04-27 19:15:49 (16.7 MB/s) - '3966.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3967&perPage=100&skipIndex=396700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3967.json
+--2016-04-27 19:15:49--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3967.json'
+
+     0K                                                       100% 5.27M=0s
+
+2016-04-27 19:15:51 (5.27 MB/s) - '3967.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3968&perPage=100&skipIndex=396800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3968.json
+--2016-04-27 19:15:52--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3968.json'
+
+     0K                                                       100% 8.34M=0s
+
+2016-04-27 19:15:54 (8.34 MB/s) - '3968.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3969&perPage=100&skipIndex=396900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3969.json
+--2016-04-27 19:15:54--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3969.json'
+
+     0K                                                       100% 4.17M=0s
+
+2016-04-27 19:15:57 (4.17 MB/s) - '3969.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3970&perPage=100&skipIndex=397000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3970.json
+--2016-04-27 19:15:57--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3970.json'
+
+     0K                                                       100% 14.3M=0s
+
+2016-04-27 19:15:59 (14.3 MB/s) - '3970.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3971&perPage=100&skipIndex=397100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3971.json
+--2016-04-27 19:15:59--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3971.json'
+
+     0K                                                       100% 20.0M=0s
+
+2016-04-27 19:16:02 (20.0 MB/s) - '3971.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3972&perPage=100&skipIndex=397200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3972.json
+--2016-04-27 19:16:02--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3972.json'
+
+     0K                                                       100% 10.0M=0s
+
+2016-04-27 19:16:04 (10.0 MB/s) - '3972.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3973&perPage=100&skipIndex=397300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3973.json
+--2016-04-27 19:16:04--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3973.json'
+
+     0K                                                       100% 4.35M=0s
+
+2016-04-27 19:16:06 (4.35 MB/s) - '3973.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3974&perPage=100&skipIndex=397400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3974.json
+--2016-04-27 19:16:06--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3974.json'
+
+     0K                                                       100% 8.34M=0s
+
+2016-04-27 19:16:08 (8.34 MB/s) - '3974.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3975&perPage=100&skipIndex=397500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3975.json
+--2016-04-27 19:16:08--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3975.json'
+
+     0K                                                       100% 8.34M=0s
+
+2016-04-27 19:16:11 (8.34 MB/s) - '3975.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3976&perPage=100&skipIndex=397600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3976.json
+--2016-04-27 19:16:11--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3976.json'
+
+     0K                                                       100% 5.27M=0s
+
+2016-04-27 19:16:13 (5.27 MB/s) - '3976.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3977&perPage=100&skipIndex=397700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3977.json
+--2016-04-27 19:16:13--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3977.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:16:16 (11.1 MB/s) - '3977.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3978&perPage=100&skipIndex=397800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3978.json
+--2016-04-27 19:16:16--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3978.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:16:18 (11.1 MB/s) - '3978.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3979&perPage=100&skipIndex=397900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3979.json
+--2016-04-27 19:16:18--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3979.json'
+
+     0K                                                       100% 4.55M=0s
+
+2016-04-27 19:16:21 (4.55 MB/s) - '3979.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3980&perPage=100&skipIndex=398000&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3980.json
+--2016-04-27 19:16:21--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3980.json'
+
+     0K                                                       100% 16.7M=0s
+
+2016-04-27 19:16:23 (16.7 MB/s) - '3980.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3981&perPage=100&skipIndex=398100&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3981.json
+--2016-04-27 19:16:23--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3981.json'
+
+     0K                                                       100% 16.7M=0s
+
+2016-04-27 19:16:25 (16.7 MB/s) - '3981.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3982&perPage=100&skipIndex=398200&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3982.json
+--2016-04-27 19:16:25--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3982.json'
+
+     0K                                                       100% 5.89M=0s
+
+2016-04-27 19:16:28 (5.89 MB/s) - '3982.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3983&perPage=100&skipIndex=398300&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3983.json
+--2016-04-27 19:16:28--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3983.json'
+
+     0K                                                       100% 8.34M=0s
+
+2016-04-27 19:16:30 (8.34 MB/s) - '3983.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3984&perPage=100&skipIndex=398400&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3984.json
+--2016-04-27 19:16:30--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3984.json'
+
+     0K                                                       100% 7.15M=0s
+
+2016-04-27 19:16:32 (7.15 MB/s) - '3984.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3985&perPage=100&skipIndex=398500&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3985.json
+--2016-04-27 19:16:32--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3985.json'
+
+     0K                                                       100% 5.89M=0s
+
+2016-04-27 19:16:35 (5.89 MB/s) - '3985.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3986&perPage=100&skipIndex=398600&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3986.json
+--2016-04-27 19:16:35--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3986.json'
+
+     0K                                                       100% 12.5M=0s
+
+2016-04-27 19:16:37 (12.5 MB/s) - '3986.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3987&perPage=100&skipIndex=398700&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3987.json
+--2016-04-27 19:16:37--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3987.json'
+
+     0K                                                       100% 1.41M=0s
+
+2016-04-27 19:16:39 (1.41 MB/s) - '3987.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3988&perPage=100&skipIndex=398800&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3988.json
+--2016-04-27 19:16:39--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3988.json'
+
+     0K                                                       100% 11.1M=0s
+
+2016-04-27 19:16:42 (11.1 MB/s) - '3988.json' saved [105/105]
+
++ wget -x --load-cookies /usr/local/nuomi.cookies '--post-data=page=3989&perPage=100&skipIndex=398900&format=json&stationId=2014&sortInfo=2' http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json -O 3989.json
+--2016-04-27 19:16:42--  http://crmv4.nuomi.com/crm/pubPriSeaQuery/queryPubSeaAll.json
+Resolving crmv4.nuomi.com... 180.97.34.120
+Connecting to crmv4.nuomi.com|180.97.34.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 105 [application/json]
+Saving to: '3989.json'
+
+     0K                                                       100% 9.10M=0s
+
+2016-04-27 19:16:44 (9.10 MB/s) - '3989.json' saved [105/105]
+

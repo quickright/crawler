@@ -1,0 +1,924 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <link href="http://static.nuomi.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="http://static.nuomi.com/apple-icon.png" rel="apple-touch-icon" />
+        
+		
+		
+		
+		<!-- DP MON -->
+		<script>
+	// pc和mobile端会稍有不同，必须严格按照该文档来部署
+	void function(g, f, j, c, h, d, b) {
+		g.alogObjectName = h, g[h] = g[h] || function() {
+			(g[h].q = g[h].q || []).push(arguments)
+		}, g[h].l = g[h].l || +new Date, d = f.createElement(j), d.async = !0,
+				d.src = c, b = f.getElementsByTagName(j)[0], b.parentNode
+						.insertBefore(d, b)
+	}(window, document, "script",
+			"http://img.baidu.com/hunter/alog/alog.min.js", "alog");
+	void function() {
+		function c() {
+			return;
+		}
+		window.PDC = {
+			mark : function(a, b) {
+				alog("speed.set", a, b || +new Date);
+				alog.fire && alog.fire("mark")
+			},
+			init : function(a) {
+				alog("speed.set", "options", a)
+			},
+			view_start : c,
+			tti : c,
+			page_ready : c
+		}
+	}();
+	void function(n) {
+		var o = !1;
+		n.onerror = function(n, e, t, c) {
+			var i = !0;
+			return !e && /^script error/i.test(n) && (o ? i = !1 : o = !0), i
+					&& alog("exception.send", "exception", {
+						msg : n,
+						js : e,
+						ln : t,
+						col : c
+					}), !1
+		}, alog("exception.on", "catch", function(n) {
+			alog("exception.send", "exception", {
+				msg : n.msg,
+				js : n.path,
+				ln : n.ln,
+				method : n.method,
+				flag : "catch"
+			})
+		})
+	}(window);
+</script>
+		<script type="text/javascript">
+			var assetUrl = "http://static.nuomi.com";
+			var baseUrl = "http://sso.nuomi.com";
+			var niuxUrl = "http://www.nuomi.com";
+		</script>
+<!--		<link href="http://sso.nuomi.com/css/base.css" rel="stylesheet" type="text/css" media="all" />-->
+		<link href="http://sso.nuomi.com/css/main.css" rel="stylesheet" type="text/css" media="all" />
+<!--		<link type="text/css" href="http://sso.nuomi.com/jquery/css/smoothness/jquery-ui-1.8.15.custom.css" rel="stylesheet" />-->
+		<link type="text/css" href="http://sso.nuomi.com/jquery/css/pagination/pagination.css" rel="stylesheet"/>
+		<script type="text/javascript" src="http://sso.nuomi.com/jquery/js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="http://sso.nuomi.com/jquery/js/jquery-ui-1.8.15.custom.min.js"></script>
+		<script type="text/javascript" src="http://sso.nuomi.com/jquery/js/jquery.ui.core.js"></script>
+		<script type="text/javascript" src="http://sso.nuomi.com/jquery/js/jquery.bgiframe.js"></script>
+		<script type="text/javascript" src="http://sso.nuomi.com/jquery/js/jquery.pagination.js"></script>
+		
+		<script type="text/javascript" src="http://sso.nuomi.com/js/listview/area.js"></script>
+<!--		<script type="text/javascript" src="http://sso.nuomi.com/js/listview/list.js"></script>-->
+		<script type="text/javascript" src="http://sso.nuomi.com/js/listview/utils.js"></script>
+		
+		<link href="http://sso.nuomi.com/css/smoothness/jquery-ui-1.8.15.custom.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="http://sso.nuomi.com/css/smoothness/jquery-ui-timepicker-addon.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="http://sso.nuomi.com/css/pagination/pagination.css"	rel="stylesheet" type="text/css" media="all" />
+		<script type="text/javascript" src="http://sso.nuomi.com/js/plugin/jquery-ui-timepicker-addon.js"></script>
+		<script type="text/javascript" src="http://sso.nuomi.com/js/plugin/jquery.ui.datepicker-zh-CN.js"></script>
+		
+		<script type="text/javascript">
+		document.domain = "nuomi.com";
+			$(function(){
+				$("input:text,textarea").blur(function(){
+					$(this).val($.trim($(this).val()));
+				})
+			})
+		</script>
+		
+		<script type="text/javascript">
+			
+			$(function(){
+				//将时间插件中文化
+				$.timepicker.regional['zh'] = {
+					timeOnlyTitle: '时间',
+					timeText: '时间',
+					hourText: '小时',
+					minuteText: '分钟',
+					secondText: '秒',
+					timezoneText: '北京时间',
+					currentText: '现在',
+					closeText: '确认',
+					timeFormat: 'hh:mm',
+					ampm: false
+				};
+				//设置中文语言
+				$.timepicker.setDefaults($.timepicker.regional['zh']);
+				
+				$( ".datepicker" ).datepicker({ dateFormat: 'yy-mm-dd' , changeMonth: true, changeYear: true});
+				$( ".timepicker" ).datetimepicker({ dateFormat: 'yy-mm-dd' , changeMonth: true, changeYear: true});
+				$(".self-table").each(function(){
+					$(this).find("tr:odd").css("background-color","#ffffff");	
+					});
+				});
+
+				var web_context = "";
+				
+		</script>
+	</head>
+	
+
+	<body>
+	<!-- 统计白屏时间 -->
+<script>
+	alog('speed.set', 'ht', +new Date);
+</script>
+	</body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>糯米运营支撑平台</title>
+    <link rel="stylesheet" href="http://sso.nuomi.com/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://sso.nuomi.com/css/jquery.jgrowl.css" rel="stylesheet" type="text/css"/>
+    <link href="http://sso.nuomi.com/css/master.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="http://static.nuomi.com/tool/crm/css/imprompt.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="http://sso.nuomi.com/css/style.css" type="text/css"/>
+    <link href="http://sso.nuomi.com/jquery/css/fancybox/jquery.fancybox-1.3.3.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="http://sso.nuomi.com/js/crm.core.js"></script>
+    <script type="text/javascript" src="http://sso.nuomi.com/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="http://sso.nuomi.com/js/XmlHttpHelper.js"></script>
+    <script type="text/javascript" src="http://sso.nuomi.com/js/jquery.fancybox-1.3.3.pack.js"></script>
+    <script type="text/javascript" src="http://sso.nuomi.com/js/Marquee.js"></script>
+    <script type="text/javascript" src="http://sso.nuomi.com/js/map.js"></script>
+    <style>
+        html {
+            background-color: #fff
+        }
+
+        div.jGrowl div.smoke {
+            background-color: #BBBBBB;
+            color: white;
+            width: 186px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        div.jGrowl div.jGrowl-header {
+            text-align: center;
+        }
+
+        .qqonline {
+            background: none repeat scroll 0 0 #ffffff;
+            border: 0;
+            position: absolute;
+            top: 100px;
+            right: 10px;
+            display: block;
+            width: 60px;
+            cursor: pointer;
+        }
+
+        .qqonline_sub {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .list li {
+            height: 25px;
+            line-height: 25px;
+            font-size: 12px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var map = new Map();
+        var openMenu = function (obj, url) {
+            var vue = map.get(obj.id);
+            if (null == vue) {
+                map.put(obj.id, true);
+                openIframe(obj.id, url);
+                $(".current").removeClass('current');
+                $(obj).addClass('current');
+                setTimeout(function () {
+                    map.remove(obj.id);
+                }, 1000 * 2);
+            }
+        }
+
+        var openIframe = function (id, url) {
+            if (url != '') {
+                if (url.indexOf('?') != -1)
+                    $('#iframe').attr('src', url + "&date=" + new Date().getTime() + "&funcPlatformId=" + id);
+                else
+                    $('#iframe').attr('src', url + "?date=" + new Date().getTime() + "&funcPlatformId=" + id);
+            }
+        }
+        var toggleMenu = function () {
+            $('.opet-title').toggle(function () {
+                $(this).addClass('title-expanded').next().slideDown();
+            }, function () {
+                var me = this;
+                $(this).next().slideUp(function () {
+                    $(me).removeClass('title-expanded');
+                });
+            });
+
+            $('.opet-btn ul li').hover(function () {
+                $(this).addClass('hover');
+            }, function () {
+                $(this).removeClass('hover');
+            })
+        }
+        var logout = function () {
+            window.location.href = baseUrl + "/login/out";
+        }
+
+    </script>
+    <script type="text/javascript">
+
+        function init(iframeId) {
+            var real_location = '';
+            if (getCookie('toIndex') == 'true') {
+                real_location = getCookie('indexUrl');
+            } else {
+                real_location = getCookie('iframeUrl');
+                if (real_location == null || real_location == '') {
+                    real_location = 'http://sso.nuomi.com/portal';
+                }
+
+                if (real_location == null || real_location == '') {
+                    real_location = getCookie('indexUrl');
+                }
+            }
+            if(real_location==='http://sso.nuomi.com/'){
+                real_location='http://sso.nuomi.com/portal';
+            }
+            $('#iframe').attr('src', real_location);
+
+            var Sys = {};
+            var ua = navigator.userAgent.toLowerCase();
+            if (window.ActiveXObject)
+                Sys.ie = ua.match(/msie ([\d.]+)/)[1]
+            if (Sys.ie) {
+                document.getElementById(iframeId).attachEvent("onload", toTop);
+            }
+            else {
+                document.getElementById(iframeId).onload = toTop;
+            }
+        }
+
+        function toTop() {
+            document.getElementById("iframe").height = 400;
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        }
+
+
+        function reinitIframe() {
+
+            var iframe = document.getElementById("iframe");
+            try {
+
+                var bHeight = iframe.contentWindow.document.body.scrollHeight;
+                var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+                var height = Math.max(bHeight, dHeight);
+                iframe.height = height;
+            } catch (ex) {
+                iframe.height = document.getElementById('bd').scrollHeight - 5;
+            }
+
+        }
+
+
+    </script>
+    <script>
+        function switchUser(user_id, url) {
+
+            refresh_flg = false;
+
+            if (user_id == null) {
+                window.location.href = "/user/switchUser";
+            } else {
+                window.location.href = baseUrl + '/agent/switchUser?userId=' + user_id + '&url=' + url + '&date=' + new Date().getTime();
+            }
+        }
+    </script>
+
+
+    <script>
+        var index_flg = false;
+        var refresh_flg = true;
+
+        function goodbye() {
+
+            if (index_flg) {
+                var index_loc = getCookie('indexUrl');
+                window.location.href = baseUrl + '/index/index?remeberURL=' + index_loc;
+                setCookie('toIndex', 'true');
+
+            } else if (refresh_flg) {
+                var loc = document.getElementById('iframe').contentWindow.location;
+                if (loc != null && loc != '') {
+                    window.location.href = baseUrl + '/index/index?remeberURL=' + loc;
+                    setCookie('iframeUrl', loc);
+                    setCookie('toIndex', 'false');
+                }
+            }
+
+        }
+
+        function goToIndexPage() {
+
+            index_flg = true;
+            goodbye();
+
+        }
+
+        function goToLogout() {
+            refresh_flg = false;
+
+            window.location.href = baseUrl + '/user/logout';
+        }
+        function setCookie(c_name, value, expiredays) {
+            var exdate = new Date()
+            exdate.setDate(exdate.getDate() + expiredays)
+            document.cookie = c_name + "=" + escape(value) + ";domain=.nuomi.com;path=/" +
+                    ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())
+        }
+
+        function getCookie(c_name) {
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(c_name + "=")
+                if (c_start != -1) {
+                    c_start = c_start + c_name.length + 1
+                    c_end = document.cookie.indexOf(";", c_start)
+                    if (c_end == -1) c_end = document.cookie.length
+                    return unescape(document.cookie.substring(c_start, c_end))
+                }
+            }
+            return ""
+        }
+
+        var baseline = 1;
+        $(document).ready(function () {
+            baseline = new Date().getTime();
+            /* 待办信息 */
+            var loadPreCount = function () {
+                var now = new Date();
+                $.ajax({
+                    type: "GET",
+                    url: '/ticket/loadPreCount?t=' + now.getTime() + '&baseline=' + baseline,
+                    data: {},
+                    dataType: "json",
+                    success: function (v) {
+                        var totalCounts = v.totalCounts;
+                        if (totalCounts > 99) {
+                            $('#tips .qqonline_sub').first().html('<b>9+</b>');
+                        }
+                        else if (totalCounts > 0) {
+                            $('#tips .qqonline_sub').first().html('<b>' + totalCounts + '</b>');
+                        }
+                        else {
+                            $('#tips .qqonline_sub').first().html('<b>0</b>');
+                        }
+                    },
+                    error: function (req, msg, ex) {
+                        $('#tips .qqonline_sub').first().html('<b>0</b>');
+                    }
+                });
+            };
+// 		loadPreCount();
+// 		setInterval(loadPreCount, 120000);
+
+            $("#tips").fancybox({
+                'width': '80%',
+                'height': '80%',
+                'scrolling': 'auto',
+                'autoDimensions': true,
+                'autoScale': false,
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'type': 'iframe'
+            });
+            var tips;
+            var theTop = 100/*这是默认高度,越大越往下*/;
+            var old = theTop;
+
+            function initFloatTips() {
+                tips = document.getElementById('divQQbox');
+                moveTips();
+            };
+            function moveTips() {
+                var tt = 50;
+                if (window.innerHeight) {
+                    pos = window.pageYOffset
+                } else if (document.documentElement && document.documentElement.scrollTop) {
+                    pos = document.documentElement.scrollTop
+                } else if (document.body) {
+                    pos = document.body.scrollTop;
+                }
+                pos = pos - tips.offsetTop + theTop;
+                pos = tips.offsetTop + pos / 10;
+                if (pos < theTop) pos = theTop;
+                if (pos != old) {
+                    tips.style.top = pos + "px";
+                    tt = 10;
+                }
+                old = pos;
+                setTimeout(moveTips, tt);
+            }
+
+            initFloatTips();
+        });
+    </script>
+
+    <style>
+        .ui-button {
+            margin-left: -1px;
+        }
+
+        .ui-button-icon-only .ui-button-text {
+            padding: 0.35em;
+        }
+
+        .ui-autocomplete-input {
+            margin: 0;
+            padding: 0.48em 0 0.47em 0.45em;
+        }
+    </style>
+
+</head>
+<body id="homePage" class="home-page" onload="javascript:init('iframe');" onunload="goodbye();">
+<a id="tips" href="http://tsticket.nuomi.com/ticket/pre?referer=true" title="技术支持">
+    <div id=divQQbox class="qqonline">
+        <!--  	 			<div class="qqonline_sub" style="z-index:99; color: #FFFFFF; width:25px; text-align:center;">?</div> -->
+        <!-- 	 	 		<div class="qqonline_sub" style="z-index:98"><img src="/images/numbg.png" alt="" width="25px"/></div> -->
+        <div class="qqonline_sub" style="z-index:97"><img id='tsticket_help' src="/images/help.png" alt="技术支持"
+                                                          width="60px"/></div>
+    </div>
+</a>
+
+<div class="header">
+    <div class="hd">
+        <div class="logo">
+            <img src="http://sso.nuomi.com/images/yy_logo.png"/>
+        </div>
+        <div class="yy_login">
+            <em>欢迎登陆，
+					<span title="登陆角色：CRM销售主管, 销售主管, CRM销售主管（新）">
+						李成
+                        
+						( 
+                        
+                            CRM销售主管
+                        
+
+                        
+                    
+                        
+                            , 销售主管
+                        
+
+                        
+                    
+                        
+
+                        ...
+                     )
+	               	</span>
+                </span>
+            </em>
+            <input type="hidden" id="hidden_user_id" value="45075"/>
+            <input type="hidden" id="hidden_username" value="licheng02@sh.baidu.com"/>
+
+            
+            <a class="login-index" href="javascript:goToIndexPage();" target="_self">首页</a>
+            <a href="javascript:goToLogout();" target="_self">退出</a>
+        </div>
+    </div>
+</div>
+<div id="bd" class="bd">
+    <div class="layout">
+        <div class="home-mod clearfix">
+            <!-- sidebar : 操作按钮 -->
+            <div id='sideBar' class='side-bar'>
+                <h2>运营支撑系统</h2>
+                
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">个人信息管理</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="1" onclick="openMenu(this, 'http://sso.nuomi.com/user/getProfile');"
+                                            itemKey="editProfile"><a
+                                                href="#">编辑资料</a></li>
+                                    
+                                        <li id="1" onclick="openMenu(this, 'http://sso.nuomi.com/user/changePassword');"
+                                            itemKey="changePassword"><a
+                                                href="#">修改密码</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">商家管理(新CRM)</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://crmv2.nuomi.com/list?viewList=VisitViewList');"
+                                            itemKey="crmv2_visit_manager"><a
+                                                href="#">我的走访（PC）</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://crmv2.nuomi.com/crmv3/visit/visitstat/saleVisitStat');"
+                                            itemKey="saler_visit_stat"><a
+                                                href="#">营销通数据统计</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://crmv4.nuomi.com/crm/pubPriSeaQuery/pubIndex.htm');"
+                                            itemKey="pub_query_new"><a
+                                                href="#">公海商家</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://crmv4.nuomi.com/crm/pubPriSeaQuery/priIndex.htm');"
+                                            itemKey="pri_query_new"><a
+                                                href="#">私海商家</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://crmv4.nuomi.com/contact/index.htm');"
+                                            itemKey="caontact_new"><a
+                                                href="#">联系人管理</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://crmv2.nuomi.com/list?viewList=SalerFalseVisitViewList');"
+                                            itemKey="visitFasleQuery"><a
+                                                href="#">虚假走访统计</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://visit.nuomi.com/visit/report/index?referer=true');"
+                                            itemKey="crm_menu_visit_report"><a
+                                                href="#">拜访统计报表</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://visit.nuomi.com/mobilevisit/stat/visitself');"
+                                            itemKey="crm_menu_visit_mine"><a
+                                                href="#">我的手机拜访</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://crmv4.nuomi.com/icrm/clue/index.htm');"
+                                            itemKey="crmv3_clue_mgr"><a
+                                                href="#">线索管理</a></li>
+                                    
+                                        <li id="52" onclick="openMenu(this, 'http://cooperation.nuomi.com/clue/clueFindMain');"
+                                            itemKey="cooperation_business"><a
+                                                href="#">商家合作意向</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">用户管理</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="1" onclick="openMenu(this, 'http://sso.nuomi.com/list?viewList=SalerChiefUserListView');"
+                                            itemKey="setAgentBySC"><a
+                                                href="#">设置代理销售</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">员工管理</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="1" onclick="openMenu(this, 'http://sso.nuomi.com/list?viewList=CityStaffListView');"
+                                            itemKey="staffManager"><a
+                                                href="#">员工列表</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">业务分析</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="6" onclick="openMenu(this, 'http://tongji.nuomi.com/list?viewList=SaleListView');"
+                                            itemKey="report_business_salor"><a
+                                                href="#">销售分析</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">竞争对手分析</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="6" onclick="openMenu(this, 'http://tongji.nuomi.com/competitor/trendAll');"
+                                            itemKey="salers_ranking"><a
+                                                href="#">销售排名</a></li>
+                                    
+                                        <li id="6" onclick="openMenu(this, 'http://tongji.nuomi.com/competitor/trend');"
+                                            itemKey="trend"><a
+                                                href="#">趋势分析</a></li>
+                                    
+                                        <li id="6" onclick="openMenu(this, 'http://tongji.nuomi.com/competitor/byCategory1');"
+                                            itemKey="report_competitor_category"><a
+                                                href="#">品类分析</a></li>
+                                    
+                                        <li id="6" onclick="openMenu(this, 'http://tongji.nuomi.com/competitor/topDeal');"
+                                            itemKey="report_competitor_deal"><a
+                                                href="#">热门Deal</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">KPI管理</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="6" onclick="openMenu(this, 'http://tongji.nuomi.com/kpi/kpiView');"
+                                            itemKey="kpiAllot"><a
+                                                href="#">KPI分配管理</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">上单信息管理(新)</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/list?viewList=SalerChiefDealListView');"
+                                            itemKey="salerChiefDealListView"><a
+                                                href="#">合同管理</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/dealOperation/dealOpe/dealOperationList');"
+                                            itemKey="dealOperation"><a
+                                                href="#">延期再上线记录</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">流程中心</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=5&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="mainContractMonitor"><a
+                                                href="#">主合同流程</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=6&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="mainContractModifyMonitor"><a
+                                                href="#">主合同修改流程</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=3&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="saleDealMonitor"><a
+                                                href="#">上单流程(v4)</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=2&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="planProcessMonitor"><a
+                                                href="#">团购方案流程(v5)</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=7&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="modifyDealMonitor"><a
+                                                href="#">修改流程(v4)</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=8&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="modifyPlanMonitor"><a
+                                                href="#">团购方案修改流程(v5)</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=9&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="consumerTipsMonitor"><a
+                                                href="#">消费提示修改流程</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://yunying-new.nuomi.com/monitor/monitor/entryMonitor?type=4&groupLeaderRoles=saler_chief,baidu_saler_chief');"
+                                            itemKey="WENAN_PROCESS"><a
+                                                href="#">文案流程</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">SC菜单组</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/contract/list?referer=true');"
+                                            itemKey="SC_CONTRACT_LIST"><a
+                                                href="#">合同列表</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/deal/list?referer=true');"
+                                            itemKey="SC_DEAL_LIST"><a
+                                                href="#">单子列表</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/scheduling/list?referer=true');"
+                                            itemKey="SC_SCHEDULING"><a
+                                                href="#">单子排期</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/process/contractProcess');"
+                                            itemKey="SC_CONTRACT_PROCESS"><a
+                                                href="#">主合同流程页面</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/process/contractModifyProcess');"
+                                            itemKey="SC_CONTRACT_MODIFY_PROCESS"><a
+                                                href="#">主合同修改流程页面</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/process/dealProcess');"
+                                            itemKey="SC_DEAL_PROCESS"><a
+                                                href="#">上单流程</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/process/dealModifyProcess');"
+                                            itemKey="SC_DEAL_MODIFY_PROCESS"><a
+                                                href="#">上单修改流程</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/task/index?referer=true');"
+                                            itemKey="SC_TASK_INDEX"><a
+                                                href="#">待办事宜</a></li>
+                                    
+                                        <li id="11" onclick="openMenu(this, 'http://sc.nuomi.com/prepay/toList?referer=true');"
+                                            itemKey="prepay-list"><a
+                                                href="#">预付初审列表</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">排单管理</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="13" onclick="openMenu(this, 'http://sche.nuomi.com/list?viewList=editActualTimeListView');"
+                                            itemKey="schedule_time"><a
+                                                href="#">页面排期</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">促销/特权管理</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="41" onclick="openMenu(this, 'http://yytools.nuomi.com/mktIndex/mktPromotion/listPage');"
+                                            itemKey="promotion_list"><a
+                                                href="#">促销/特权列表</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class='opet-bar'>
+                            <div class='opet-title'><a href="#">珠玑系统</a></div>
+                            <div class='opet-btn'>
+                                <ul>
+                                    
+                                        <li id="57" onclick="openMenu(this, 'http://crmdm.nuomi.com/performance/index.htm');"
+                                            itemKey="crm_dm_saler_performance"><a
+                                                href="#">我的绩效</a></li>
+                                    
+                                        <li id="57" onclick="openMenu(this, 'http://crmdm.nuomi.com/performance/detail/index.htm');"
+                                            itemKey="crm_dm_performance_detail"><a
+                                                href="#">绩效详情</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+
+                
+            </div>
+            <div class='main-container'>
+                <iframe scrolling="auto" id="iframe" name="iframe" width="100%" height="400px" frameborder="0"
+                        src=""></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"> 
+   $(function(){
+	   getRedis();
+         var interva = setInterval(getRedis, 600000);
+	    $("#icon").toggle(function(){
+			$("#extra_top_menu").stop().animate({left:"530px"},1000);
+			$("#icon").attr("class","icon-chevron-left");
+			$(".hidebar").hide();
+			$("#username").hide();
+			$(".devider").hide();
+			$(".fixmenu").css("width","35px");
+			$("#icon").attr("title","展开");
+		},function(){
+		 $("#extra_top_menu").stop().animate({left:"0px"},1000);
+		 $(".fixmenu").css("width","80%");
+		 		$(".hidebar").show();
+		 		$("#username").show();
+		 		$(".devider").show();
+		 		$("#icon").attr("class","icon-chevron-right");
+		 		$("#icon").attr("title","收起");
+		});
+	var $list = $(".list");		
+	var speed =3000;		
+	var sto = setTimeout(function(){
+		autoScroll();
+	},speed);
+	$list.hover(function(){
+		clearTimeout(sto);
+	},function(){
+		sto = setTimeout(function(){autoScroll();},speed);
+	});
+	function autoScroll(){ 
+	    $list.css('margin-top','-25px');
+	    setTimeout(function(){
+	    	$list.css('margin-top','0px').find("li:first").appendTo($list);
+	    }, 1000);
+	    sto = setTimeout(function(){autoScroll();},speed);
+	} 
+}); 
+     function getRedis() { 
+           	 $.get("/arret/getRedisArret", function(data){
+           	   var html ='';	
+	     		for(var i=0;i<data.length;i++){
+		     		var id=data[i].id;
+		     		var title=data[i].title;
+		     		var content=data[i].content;
+		     		html += " <li id='"+id+"' onclick='getdialog(this);' style='overflow:hidden;' >"+title+"</li> ";
+	     		}
+	     		$(".list").html(html);
+     		},'json');	
+           }  
+   function getdialog(obj){
+	var id=$(obj).attr("id");
+		$.fancybox.showActivity();
+	$.fancybox({
+			'width'				: 700,
+			'height'			: 400,
+			'scrolling'         : 'auto',
+			'autoDimensions'	: true,
+			'autoScale'			: false,
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'type'				: 'iframe',
+			'href':'/arret/dialogArret?id='+id
+	});
+	}
+
+</script> 
+<div id="extra_top_menu" style="position: fixed; z-index: 990; bottom: -2px;display: block; width:100%; ">
+    <table class="fixmenu">
+        <tr>
+          <td id="first" style="width:194px;" >
+            <div class="left">
+            <ul>
+              <li><div class="inner"><i id="icon" class="icon-chevron-right" title="收起"></i></div><div class="devider"></div></li>	
+              <li id="username"><div id="1" class="inner" title="修改个人资料"
+									 onclick="openMenu(this,'http://sso.nuomi.com/user/getProfile');"><i
+					  class="icon-th-large"></i>&nbsp;李成</div><div class="devider"></div></li>
+            </ul>
+          </div></td>
+          <td class="hidebar">
+          <div style="height:25px;overflow:hidden;text-align: center;position:relative;" >
+
+			  <ul class="list" style="margin-top:0; width:100%;"> 			  
+	           </ul>
+		  </div>
+		  </td>
+            <td width="194" class="hidebar" >
+            <div class="right">
+            <ul>
+            <!-- onclick="openMenu(this, 'http://tsticket.nuomi.com/list?viewList=TodoTicketListView');" -->
+             <li><div class="inner" id="21" ><i class="icon-info-sign" title="我的待办"></i></div><div class="devider"></div></li>
+            </ul>
+          </div>
+          </td>
+        </tr>
+    </table>
+</div>
+<div class="ft">
+    <p class="copy-right"><span title="nj02-nuomi-yunying00.nj02.baidu.com">&copy;</span>2011 nuomi.com 京ICP备10216834号</p>
+</div>
+
+<div id="one" class="jGrowl bottom-right"></div>
+</body>
+</html><!--21624303730831967242042717-->
+<script> var _trace_page_logid = 2162430373; </script><!--21624335450475189258042717-->
+<script> var _trace_page_logid = 2162433545; </script>
